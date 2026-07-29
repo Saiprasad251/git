@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My First HTML Page</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background: #0077cc;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav {
+            background: #333;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+        }
+
+        section {
+            padding: 20px;
+        }
+
+        .card {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            margin-bottom: 20px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        table, th, td {
+            border: 1px solid #ccc;
+        }
+
+        th, td {
+            padding: 10px;
+            text-align: left;
+        }
+
+        footer {
+            background: #222;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 20px;
+        }
+
+        button {
+            background: #0077cc;
+            color: white;
+            border: none;
+            padding: 10px 18px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background: #005fa3;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Welcome to My Website</h1>
+    <p>Learning HTML Step by Step</p>
+</header>
+
+<nav>
+    <a href="#">Home</a>
+    <a href="#">About</a>
+    <a href="#">Services</a>
+    <a href="#">Contact</a>
+</nav>
+
+<section>
+
+    <div class="card">
+        <h2>About HTML</h2>
+        <p>
+            HTML stands for <strong>HyperText Markup Language</strong>.
+            It is used to create the structure of web pages.
+        </p>
+
+        <img
+            src="https://picsum.photos/600/250"
+            alt="Random Image"
+            width="100%">
+    </div>
+
+    <div class="card">
+        <h2>Skills</h2>
+
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+        </ul>
+    </div>
+
+    <div class="card">
+        <h2>Student Details</h2>
+
+        <table>
+            <tr>
+                <th>Name</th>
+                <th>Course</th>
+                <th>Age</th>
+            </tr>
+
+            <tr>
+                <td>John</td>
+                <td>HTML</td>
+                <td>22</td>
+            </tr>
+
+            <tr>
+                <td>Emma</td>
+                <td>CSS</td>
+                <td>21</td>
+            </tr>
+        </table>
+    </div>
+
+    <div class="card">
+        <h2>Contact Form</h2>
+
+        <form>
+            <label>Name</label><br>
+            <input type="text" placeholder="Enter your name"><br><br>
+
+            <label>Email</label><br>
+            <input type="email" placeholder="Enter your email"><br><br>
+
+            <label>Password</label><br>
+            <input type="password" placeholder="Enter password"><br><br>
+
+            <label>Message</label><br>
+            <textarea rows="5" cols="40"></textarea><br><br>
+
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+
+</section>
+
+<footer>
+    <p>&copy; 2026 My Website. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
